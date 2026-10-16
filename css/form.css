@@ -9,11 +9,11 @@ body{
     display: grid;
     place-items: center;
     padding: 20px;
-    background: -o-linear-gradient(135deg,#0f17za,#4f46e5);
+    background: linear-gradient(135deg,#0f172a,#4f46e5);
 }
 .container{
     width: 100%;
-    max-width: 30px;
+    max-width: 400px;
     padding:30px ;
     border-radius: 16px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -21,7 +21,8 @@ body{
 .logo{
     display: grid;
     place-items: center;
-    width: 50px;
+    width: 60px;
+    height: 60px;
     background-color: rgb(78, 78, 224);
     border-radius: 12px;
     color: rgb(1, 1, 7);
@@ -30,7 +31,7 @@ body{
     margin: 0 auto 20px;
 
 }
-h1,.subtitle,.login{
+h1.subtitle,.login{
     text-align: center;
    
 }
@@ -60,6 +61,8 @@ h1{
 .input-group input{
     width: 100%;
     padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
 
 }
 .input-group input:focus{
@@ -84,6 +87,7 @@ button{
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
+    transition: 3s;
 }
 button:hover{
     background-color: blue;
