@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 24px;
+    background-color: #f4f7f9;
+}
+
+.fruits,
+.cars {
+    margin: 16px auto;
+    padding: 16px;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.fruits {
+    background-color: #fff3cd;
+    border: 2px solid #f0ad4e;
+}
+
+.cars {
+    background-color: #dff0ff;
+    border: 2px solid #2684c7;
+}
+
+.fruits h2,
+.cars h2 {
+    margin-top: 0;
+}
