@@ -9,7 +9,14 @@ body{
     display: grid;
     place-items: center;
     padding: 20px;
-    background: linear-gradient(135deg,#0f172a,#4f46e5);
+    background-color: chocolate;
+  
+  
+}
+.Para{
+    text-align: center;
+    background-color: white;
+    padding-top: 10px;
 }
 .container{
     width: 100%;
@@ -17,13 +24,22 @@ body{
     padding:30px ;
     border-radius: 16px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border:solid  black;
+      background: linear-gradient(5deg,#0be02f,#e0370d);
+}
+
+.container form:hover{
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    
 }
 .logo{
     display: grid;
     place-items: center;
-    width: 60px;
+    width: px;
     height: 60px;
-    background-color: rgb(78, 78, 224);
+    background-color: rgb(8, 150, 67);
     border-radius: 12px;
     color: rgb(1, 1, 7);
     font-weight: bold;
@@ -33,11 +49,14 @@ body{
 }
 h1.subtitle,.login{
     text-align: center;
+    font-weight: bold;
    
 }
 h1{
-    color: rgb(3, 105, 105);
+    color: rgb(8, 41, 41);
     margin: 8px;
+    font-weight: bold;
+    text-underline-position: below;
 
 }
 .subtitle,.login{
@@ -91,7 +110,8 @@ button{
 }
 button:hover{
     background-color: blue;
-    transform: translate(-2px);
+    transform: translate(-12px);
+    s
 }
 .login{
     margin-top: 20px;

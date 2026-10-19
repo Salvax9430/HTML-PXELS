@@ -92,3 +92,6 @@ body{
     gap: 15px;
     flex-wrap: wrap;
 }
+h1{
+    justify-content: center;
+}
